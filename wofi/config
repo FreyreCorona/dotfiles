@@ -1,0 +1,14 @@
+show=drun
+width=800
+height=600
+always_parse_args=true
+show_all=true
+print_command=true
+layer=overlay
+insensitive=true
+allow_markup=true
+allow_images=true
+image_size=22
+hide_scroll=true
+show_submenus=true
+no_actions=true

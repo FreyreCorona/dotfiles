@@ -1,0 +1,36 @@
+{
+    "label" : "shutdown",
+    "action" : "systemctl poweroff",
+    "text" : "Shutdown",
+    "keybind" : "s"
+}
+{
+    "label" : "reboot",
+    "action" : "systemctl reboot",
+    "text" : "Reboot",
+    "keybind" : "r"
+}
+{
+    "label" : "logout",
+    "action" : "loginctl kill-session $XDG_SESSION_ID",
+    "text" : "Logout",
+    "keybind" : "e"
+}
+{
+    "label" : "hibernate",
+    "action" : "swaylock -F -f -i ~/Pictures/arch.jpg -s fill -l && systemctl hibernate",
+    "text" : "Hibernate",
+    "keybind" : "h"
+}
+{
+    "label" : "lock",
+    "action" : "swaylock -F -f -i ~/Pictures/arch.jpg -s fill -l ",
+    "text" : "Lock",
+    "keybind" : "l"
+}
+{
+    "label" : "sleep",
+    "action" : "systemctl suspend",
+    "text" : "sleep",
+    "keybind" : "p"
+}
